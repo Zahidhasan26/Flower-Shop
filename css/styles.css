@@ -7,21 +7,34 @@ body {
     margin: 0;
     padding: 0;
 }
-.container-header {
-    padding: 40px 160px 0 160px;
+.container-with-bg {
+    /* padding: 40px 160px 0 160px; */
+    width: 80%;
+    margin: auto;
+    /* text-align: center; */
     /* justify-content: center; */
 }
 .container {
-    padding: 60px 160px;
+    /* padding: 60px 160px; */
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
     text-align: center;
     /* justify-content: center; */
 }
+
+
 .header {
+    background-color: #FCEDF0;
+}
+.deal {
+    padding: 60px 0;
     background-color: #FCEDF0;
 }
 .banner {
     display: flex;
     justify-content: center;
+    padding-top: 60px;
 }
 
 h1 {
@@ -31,6 +44,11 @@ h1 {
     margin: 0;
     color: #272727;
     /* text-shadow: 1px 1px; */
+}
+h2 {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
 }
 
 p {
@@ -58,30 +76,62 @@ p {
 .category {
     /* padding: 60px 0; */
 }
-.category-header h2 {
-    font-size: 30px;
-    font-weight: 900;
-    text-align: center;
+
+.pink-text {
+    color: #E55473;
 }
 /* .category-header p {
     padding: 0 200px;
 } */
 .category-gallery {
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
 }
-.box img {
-    /* padding: 60px 40px 0 40px; */
-    padding: 60px 45px 0 45px;
-    width: 220px ;
+.category-gallery h3 {
+    font-size: 16px;
+    text-decoration: underline;
+}
+.img-box {
+    min-height: 390px;
     border-radius: 100% 100% 0 0;
 }
-.category-box-1 img{
+.img-box img {
+    padding: 60px 40px 0 40px;
+    padding: 60px 45px 0 45px;
+    width: 220px;
+}
+
+.box-1{
     background-color: #F2DEE8;
 }
-.category-box-2 img{
+
+.box-2 {
     background-color: #DAF0F1;
 }
-.category-box-3 img{
-    background-color: #E4ECDC;
+.box-3 {
+    background-color: #FDF6F8;
+}
+.flexbox {
+    display: flex;
+    justify-content: center;
+}
+.deal-left {
+    padding: 0 90px;
+    text-align: center;
+}
+.deal-right img {
+    padding: 0 90px;
+    width: 220px;
+}
+.insta-box-gallery {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.insta-box {
+    width: 23%;
+}
+.insta-box img{
+    width: 100%;
 }
