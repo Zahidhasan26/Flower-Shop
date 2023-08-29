@@ -90,18 +90,18 @@ p {
     padding: 60px 40px 0 40px;
     padding: 60px 45px 0 45px;
     width: 220px;
-    align-self: flex-end;
-}
-.box-1 img {
-    display: block;
-    margin-bottom: 0;
+    height: auto;
+    
 }
 
 .box-1{
     background-color: #F2DEE8;
     margin-bottom: auto;
+    display: flex;
 }
-
+.box-1 img {
+    align-items: flex-end;
+ }
 .box-2 {
     background-color: #DAF0F1;
 }
