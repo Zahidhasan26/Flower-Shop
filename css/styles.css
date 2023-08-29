@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 
 * {
     font-family: 'Lato', sans-serif;
@@ -135,9 +135,47 @@ p {
 .insta-box img{
     width: 100%;
 }
+/* bonus section */
+
+.wish-box {
+    width: 25%;
+    padding: 20px 0;
+    text-align: center;
+}
+.wish-box-6 img{
+    height: 137.78px;
+    display: none;
+}
+.wish-box-6:hover img {
+    display: block;
+    position: absolute;
+    margin-left: 80px;
+}
+.wish-box-text {
+    font-family: 'Kalam', cursive;
+
+}
+.pink-bg {
+    background-color: #FCEDF0;
+}
+.white-bg:hover {
+    background-color: #FCEDF0;
+}
+.white-bg:hover h2 {
+    color: #E55473;
+}
+.pink-bg:hover {
+    background-color: white;
+}
+.pink-bg:hover h2 {
+    color: #E55473;
+}
+
+
+/* bonus section */
 .subscriber-box {
     padding: 80px 0px;
-    background-image: url("/images/bg.png");
+    background-image: url("images/bg.png");
     background-size: cover;
 }
 input {
