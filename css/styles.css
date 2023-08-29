@@ -175,7 +175,7 @@ p {
 /* bonus section */
 .subscriber-box {
     padding: 80px 0px;
-    background-image: url("images/bg.png");
+    background-image: url("/bg.png");
     background-size: cover;
 }
 input {
