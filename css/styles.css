@@ -145,3 +145,9 @@ input {
     width: auto;
     border: none;
 }
+.footer {
+    background-color: #111010;
+}
+.text {
+color: white;
+}
