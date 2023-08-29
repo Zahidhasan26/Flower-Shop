@@ -135,3 +135,13 @@ p {
 .insta-box img{
     width: 100%;
 }
+.subscriber-box {
+    padding: 80px 0px;
+    background-image: url("/images/bg.png");
+    background-size: cover;
+}
+input {
+    padding: 12px 150px;
+    width: auto;
+    border: none;
+}
